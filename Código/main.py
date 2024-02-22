@@ -29,7 +29,7 @@ class TextEditor:
         button_update.pack(side='left')
 
         # Configuração do editor de texto
-        self.text_area = Text(self.window, font=f'{self.spin_font.get()} {self.spin_size.get()}', width=830, height=480)
+        self.text_area = Text(self.window, font=f'{self.spin_font.get()} {self.spin_size.get()}', width=840, height=480)
         self.text_area.pack()
 
         # Configuração do menu principal
